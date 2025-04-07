@@ -1,0 +1,286 @@
+{
+  "updatedAt": "2025-04-03T21:58:26.272Z",
+  "matches": [
+    {
+      "team1": "New Zealand",
+      "team1Image": 172128,
+      "team2Image": 591986,
+      "id": 102117,
+      "matchType": "International",
+      "team2": "Pakistan",
+      "date": "1743804000000"
+    },
+    {
+      "matchType": "International",
+      "team2": "Norway",
+      "id": 116400,
+      "date": "1744029000000",
+      "team2Image": 247201,
+      "team1": "Portugal",
+      "team1Image": 248442
+    },
+    {
+      "team1Image": 248442,
+      "team1": "Portugal",
+      "matchType": "International",
+      "team2Image": 247201,
+      "id": 116409,
+      "date": "1744115400000",
+      "team2": "Norway"
+    },
+    {
+      "date": "1744201800000",
+      "team1": "Portugal",
+      "team1Image": 248442,
+      "team2Image": 247201,
+      "matchType": "International",
+      "id": 116418,
+      "team2": "Norway"
+    },
+    {
+      "date": "1743775200000",
+      "show": true,
+      "matchType": "League",
+      "team1Image": 389444,
+      "id": 115059,
+      "team2Image": 225645,
+      "team2": "Mumbai Indians",
+      "team1": "Lucknow Super Giants"
+    },
+    {
+      "team2Image": 225644,
+      "team1Image": 225641,
+      "id": 115068,
+      "matchType": "League",
+      "team2": "Delhi Capitals",
+      "date": "1743847200000",
+      "team1": "Chennai Super Kings"
+    },
+    {
+      "matchType": "League",
+      "team2": "Rajasthan Royals",
+      "team1Image": 225648,
+      "id": 115075,
+      "date": "1743861600000",
+      "team1": "Punjab Kings",
+      "team2Image": 225647
+    },
+    {
+      "team2": "Gujarat Titans",
+      "matchType": "League",
+      "team1": "Sunrisers Hyderabad",
+      "team2Image": 235085,
+      "team1Image": 225649,
+      "date": "1743948000000",
+      "id": 115093
+    },
+    {
+      "date": "1744034400000",
+      "team2": "Royal Challengers Bengaluru",
+      "matchType": "League",
+      "team1": "Mumbai Indians",
+      "team1Image": 225645,
+      "team2Image": 225643,
+      "id": 115095
+    },
+    {
+      "matchType": "League",
+      "team1": "Kolkata Knight Riders",
+      "date": "1744106400000",
+      "team2": "Lucknow Super Giants",
+      "team1Image": 225646,
+      "team2Image": 389444,
+      "id": 115084
+    },
+    {
+      "team1Image": 225648,
+      "date": "1744120800000",
+      "team2Image": 225641,
+      "team2": "Chennai Super Kings",
+      "id": 115102,
+      "matchType": "League",
+      "team1": "Punjab Kings"
+    },
+    {
+      "team2Image": 225647,
+      "date": "1744207200000",
+      "team1": "Gujarat Titans",
+      "team1Image": 235085,
+      "id": 115104,
+      "team2": "Rajasthan Royals",
+      "matchType": "League"
+    },
+    {
+      "matchType": "League",
+      "id": 115111,
+      "date": "1744293600000",
+      "team1Image": 225643,
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Delhi Capitals",
+      "team2Image": 225644,
+      "show": true
+    },
+    {
+      "date": "1744272000000",
+      "id": 104906,
+      "team2": "TBC",
+      "team2Image": 172198,
+      "matchType": "Domestic",
+      "team1": "TBC",
+      "team1Image": 172198
+    },
+    {
+      "team1": "Northamptonshire",
+      "team2Image": 172217,
+      "team2": "Kent",
+      "team1Image": 172209,
+      "id": 113292,
+      "date": "1743760800000",
+      "matchType": "Domestic"
+    },
+    {
+      "matchType": "Domestic",
+      "date": "1743760800000",
+      "team2Image": 172218,
+      "id": 113298,
+      "team1Image": 172211,
+      "team2": "Gloucestershire",
+      "team1": "Derbyshire"
+    },
+    {
+      "matchType": "Domestic",
+      "team1Image": 172170,
+      "team1": "Middlesex",
+      "id": 113307,
+      "team2Image": 172210,
+      "team2": "Lancashire",
+      "date": "1743760800000"
+    },
+    {
+      "matchType": "Domestic",
+      "team2": "Leicestershire",
+      "id": 113310,
+      "team1Image": 172216,
+      "team1": "Glamorgan",
+      "team2Image": 172212,
+      "date": "1743760800000"
+    },
+    {
+      "team2": "Surrey",
+      "date": "1743760800000",
+      "team1": "Essex",
+      "team1Image": 172219,
+      "matchType": "Domestic",
+      "id": 112821,
+      "team2Image": 172215
+    },
+    {
+      "matchType": "Domestic",
+      "team2": "Yorkshire",
+      "team2Image": 172213,
+      "date": "1743760800000",
+      "team1Image": 172220,
+      "team1": "Hampshire",
+      "id": 112824
+    },
+    {
+      "team2Image": 172214,
+      "date": "1743760800000",
+      "team1Image": 172199,
+      "team1": "Somerset",
+      "id": 112833,
+      "matchType": "Domestic",
+      "team2": "Worcestershire"
+    },
+    {
+      "id": 112839,
+      "team2Image": 172148,
+      "team2": "Sussex",
+      "team1": "Warwickshire",
+      "matchType": "Domestic",
+      "date": "1743760800000",
+      "team1Image": 172207
+    },
+    {
+      "matchType": "Domestic",
+      "team1": "Nottinghamshire",
+      "team2Image": 172208,
+      "id": 112848,
+      "team2": "Durham",
+      "team1Image": 172206,
+      "date": "1743760800000"
+    },
+    {
+      "team1": "Portugal Women",
+      "id": 116425,
+      "team2Image": 247202,
+      "date": "1744014600000",
+      "team2": "Norway Women",
+      "matchType": "Women",
+      "team1Image": 625937
+    },
+    {
+      "team2Image": 247202,
+      "date": "1744101000000",
+      "team1Image": 625937,
+      "id": 116434,
+      "team1": "Portugal Women",
+      "matchType": "Women",
+      "team2": "Norway Women"
+    },
+    {
+      "team1": "Portugal Women",
+      "id": 116436,
+      "team1Image": 625937,
+      "team2Image": 247202,
+      "matchType": "Women",
+      "date": "1744187400000",
+      "team2": "Norway Women"
+    },
+    {
+      "id": 116301,
+      "team2": "Ireland Women",
+      "team1": "Pakistan Women",
+      "date": "1744173000000",
+      "team1Image": 172312,
+      "team2Image": 172249,
+      "matchType": "Women"
+    },
+    {
+      "matchType": "Women",
+      "team1": "West Indies Women",
+      "team1Image": 172310,
+      "team2": "Scotland Women",
+      "date": "1744173000000",
+      "team2Image": 252366,
+      "id": 116308
+    },
+    {
+      "team2Image": 172377,
+      "date": "1744259400000",
+      "id": 116310,
+      "team2": "Bangladesh Women",
+      "matchType": "Women",
+      "team1": "Thailand Women",
+      "team1Image": 172435
+    },
+    {
+      "team1": "Indonesia Women",
+      "team2Image": 341074,
+      "team1Image": 172532,
+      "team2": "Cook Islands Women",
+      "date": "1744158600000",
+      "matchType": "Women",
+      "id": 116504
+    },
+    {
+      "matchType": "Women",
+      "date": "1744245000000",
+      "team2": "Philippines Women",
+      "team1Image": 172532,
+      "team2Image": 307469,
+      "team1": "Indonesia Women",
+      "id": 116507
+    }
+  ]
+}
