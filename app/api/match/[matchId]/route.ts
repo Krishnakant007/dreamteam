@@ -1,4 +1,4 @@
-
+// app/api/match/[matchId]/route.ts
 import { NextRequest, NextResponse } from 'next/server';
 import axios from 'axios';
 import { doc, setDoc } from 'firebase/firestore';
@@ -39,13 +39,15 @@ async function fetchWithKeyRotation(matchId: string, keyIndex = 0): Promise<any>
 }
 
 export async function GET(
-  req: NextRequest,
-  context: { params: { matchId: string } }
+  request: NextRequest,
+  { params }: { params: { matchId: string | string[] } }
 ) {
-  const { matchId } = context.params;
+  const matchId = Array.isArray(params.matchId) ? params.matchId[0] : params.matchId;
 
   try {
     const data = await fetchWithKeyRotation(matchId);
+
+    // Save to Firestore
     await setDoc(doc(db, 'matchinfo', matchId), data);
 
     return NextResponse.json({ success: true, data });
