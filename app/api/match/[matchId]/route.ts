@@ -40,9 +40,9 @@ async function fetchWithKeyRotation(matchId: string, keyIndex = 0): Promise<any>
 
 export async function GET(
   request: NextRequest,
-  { params }: { params: { matchId: string | string[] } }
+  context: { params: { matchId: string } }
 ) {
-  const matchId = Array.isArray(params.matchId) ? params.matchId[0] : params.matchId;
+  const { matchId } = context.params;
 
   try {
     const data = await fetchWithKeyRotation(matchId);
