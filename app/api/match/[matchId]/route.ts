@@ -31,8 +31,7 @@
 // }
 
 
-
-
+// app/api/match/[matchId]/route.ts
 import { NextRequest, NextResponse } from 'next/server';
 import axios from 'axios';
 import { doc, setDoc } from 'firebase/firestore';
@@ -72,7 +71,6 @@ async function fetchWithKeyRotation(matchId: string, keyIndex = 0): Promise<any>
   }
 }
 
-// ✅ Correct signature for dynamic API route in App Router
 export async function GET(
   req: NextRequest,
   context: { params: { matchId: string } }
@@ -81,8 +79,6 @@ export async function GET(
 
   try {
     const data = await fetchWithKeyRotation(matchId);
-
-    // Save to Firestore
     await setDoc(doc(db, 'matchinfo', matchId), data);
 
     return NextResponse.json({ success: true, data });
@@ -91,6 +87,7 @@ export async function GET(
     return NextResponse.json({ success: false, error: error.message }, { status: 500 });
   }
 }
+// app/api/match/[matchId]/route.ts
 import { NextRequest, NextResponse } from 'next/server';
 import axios from 'axios';
 import { doc, setDoc } from 'firebase/firestore';
@@ -130,7 +127,6 @@ async function fetchWithKeyRotation(matchId: string, keyIndex = 0): Promise<any>
   }
 }
 
-// ✅ Correct signature for dynamic API route in App Router
 export async function GET(
   req: NextRequest,
   context: { params: { matchId: string } }
@@ -139,8 +135,6 @@ export async function GET(
 
   try {
     const data = await fetchWithKeyRotation(matchId);
-
-    // Save to Firestore
     await setDoc(doc(db, 'matchinfo', matchId), data);
 
     return NextResponse.json({ success: true, data });
@@ -149,5 +143,3 @@ export async function GET(
     return NextResponse.json({ success: false, error: error.message }, { status: 500 });
   }
 }
-
-
