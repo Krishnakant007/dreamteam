@@ -34,10 +34,6 @@
 
 
 
-
-
-
-// app/api/match/[matchId]/route.ts
 import { NextRequest, NextResponse } from 'next/server';
 import axios from 'axios';
 import { doc, setDoc } from 'firebase/firestore';
@@ -77,8 +73,12 @@ async function fetchWithKeyRotation(matchId: string, keyIndex = 0): Promise<any>
   }
 }
 
-export async function GET(request: NextRequest, { params }: { params: { matchId: string } }) {
-  const matchId = params.matchId;
+// ✅ Correctly typed handler for dynamic route
+export async function GET(
+  request: NextRequest,
+  context: { params: { matchId: string } }
+) {
+  const matchId = context.params.matchId;
 
   try {
     const data = await fetchWithKeyRotation(matchId);
@@ -92,3 +92,4 @@ export async function GET(request: NextRequest, { params }: { params: { matchId:
     return NextResponse.json({ success: false, error: error.message }, { status: 500 });
   }
 }
+
